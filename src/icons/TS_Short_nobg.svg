@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="a" data-name="uuid-fc6cdc50-c65d-40e7-ac76-60ca06949e4b" xmlns="http://www.w3.org/2000/svg" width="760.66" height="760.66" viewBox="0 0 760.66 760.66">
-  <circle id="b" data-name="uuid-719063af-f505-4a70-bbb8-e53ffc6ff863" cx="380.33" cy="380.33" r="370.83" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 19px;"/>
-  <polygon id="c" data-name="uuid-120e49c7-abf5-4679-a834-584ba0b6520f" points="530.04 142.03 530.04 186.43 406.43 186.43 406.43 670.16 352.13 670.16 352.13 186.43 230.63 186.43 230.63 142.03 530.04 142.03" style="fill: #fff;"/>
-  <path id="d" data-name="uuid-0ccac6d8-ef96-432a-a0c2-a0e984d08085" d="m259.95,576.83c23.4,14.4,57.6,26.4,93.6,26.4,53.4,0,84.6-28.2,84.6-69,0-37.8-21.6-59.4-76.2-80.4-66-23.4-106.8-57.6-106.8-114.6,0-63,52.2-109.8,130.8-109.8,41.4,0,101.38,22.9,124.4,40.8l-14.4,42.6c-36.62-28-75.2-40.2-111.8-40.2-55.2,0-76.2,33-76.2,60.6,0,37.8,24.6,56.4,80.4,78,68.4,26.4,103.2,59.4,103.2,118.8,0,62.4-46.2,116.4-141.6,116.4-39,0-81.6-11.4-103.2-25.8l13.2-43.8Z" style="fill: #fff;"/>
-  <g id="e" data-name="uuid-5dc07387-eed3-4ab1-8eb8-7838cea31cff">
-    <circle cx="406.43" cy="186.43" r="22.02" transform="translate(157.3 557.75) rotate(-80.78)" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <line x1="231.24" y1="682.07" x2="410.63" y2="86.81" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <line x1="250.75" y1="705.33" x2="250.75" y2="80.66" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <line x1="261.75" y1="693.33" x2="261.75" y2="68.66" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <path d="m273.06,543.29c14.57,4.76,25.11,18.46,25.11,34.62,0,9.13-3.36,17.48-8.92,23.87" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <line x1="371.36" y1="675.61" x2="569.25" y2="86.23" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <line x1="90.84" y1="380.33" x2="669.82" y2="380.33" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <path d="m250.99,528.21c3.47-.74,7.07-1.12,10.76-1.12,28.49,0,51.58,23.09,51.58,51.58,0,10.43-3.1,20.14-8.43,28.26" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <line id="f" data-name="uuid-9349ebdb-17e2-44a5-ad93-28a2f8a36593" x1="691.86" y1="472.46" x2="311.53" y2="92.13" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <line x1="191.83" y1="186.43" x2="563.83" y2="186.43" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <line x1="487.75" y1="719.33" x2="487.75" y2="108.59" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
+<svg id="a" data-name="Warstwa 2" xmlns="http://www.w3.org/2000/svg" width="760.67" height="760.67" viewBox="0 0 760.67 760.67">
+  <path d="m380.33,760.67c-51.34,0-101.15-10.06-148.05-29.89-45.29-19.16-85.96-46.58-120.89-81.5-34.93-34.93-62.35-75.6-81.5-120.89C10.06,481.48,0,431.67,0,380.33s10.06-101.15,29.89-148.05c19.16-45.29,46.58-85.96,81.5-120.89,34.93-34.93,75.6-62.35,120.89-81.5C279.18,10.06,328.99,0,380.33,0s101.15,10.06,148.05,29.89c45.29,19.16,85.96,46.58,120.89,81.5,34.93,34.93,62.35,75.6,81.5,120.89,19.83,46.9,29.89,96.71,29.89,148.05s-10.06,101.15-29.89,148.05c-19.16,45.29-46.58,85.96-81.5,120.89-34.93,34.93-75.6,62.35-120.89,81.5-46.9,19.83-96.71,29.89-148.05,29.89Zm0-741.67C181.09,19,19,181.09,19,380.33s162.09,361.33,361.33,361.33,361.33-162.09,361.33-361.33S579.57,19,380.33,19Z" style="fill: #fff;"/>
+  <g id="b" data-name="S">
+    <path d="m343.02,449.77c-29.71-12.39-51.44-26.78-66.42-43.98-16.45-18.88-24.45-40.66-24.45-66.56,0-31.7,13.13-60.4,36.97-80.8,24.46-20.93,57.94-32,96.83-32,41.09,0,101.6,22.27,126.24,41.43l1.68,1.31-16.42,48.58-3.32-2.54c-33.87-25.9-71.9-39.58-109.98-39.58-50.57,0-73.2,28.93-73.2,57.6,0,24.15,10.07,40.06,34.76,54.89l1.46.87v62.51l-4.15-1.73Z" style="fill: #fff;"/>
+    <path d="m349.95,649.43c-37.9,0-82-11.06-104.86-26.3l-1.85-1.23,14.97-49.66,3.32,2.04c26.41,16.25,60.81,25.96,92.03,25.96,50.33,0,81.6-25.29,81.6-66,0-21.36-7.07-36.83-22.93-50.15l-1.07-.9v-65.65l4.3,2.07c27.03,13.01,46.35,27.65,59.06,44.77,13.48,18.16,20.04,39.64,20.04,65.67,0,32.98-12.79,62.75-36.01,83.82-25.65,23.28-63.2,35.58-108.59,35.58Z" style="fill: #fff;"/>
+  </g>
+  <g id="c" data-name="T">
+    <path d="m406.43,280.22v303.42c-13.27,8.78-31.25,13.59-52.88,13.59-.47,0-.94,0-1.42,0v-313.67c8.98-3.13,19.63-4.92,32.02-4.92,7.44,0,14.88.53,22.28,1.59Z" style="fill: #fff;"/>
+    <path d="m406.43,645.1v25.06h-54.3v-17.75c19.68-.16,37.88-2.63,54.3-7.31Z" style="fill: #fff;"/>
+    <path d="m530.04,142.03v44.4h-123.61v38.52c-7.16-.98-14.05-1.52-20.48-1.52-11.72,0-23.03,1.01-33.82,3.01v-40.01h-121.5v-44.4h299.41Z" style="fill: #fff;"/>
+  </g>
+  <g id="d" data-name="Lines">
+    <circle cx="406.44" cy="186.43" r="22.02" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="231.24" y1="682.07" x2="410.64" y2="86.81" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="250.76" y1="705.33" x2="250.76" y2="80.67" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="261.76" y1="693.33" x2="261.76" y2="68.67" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <path d="m273.06,543.3c14.57,4.76,25.11,18.46,25.11,34.62,0,9.13-3.36,17.48-8.92,23.87" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="371.36" y1="675.61" x2="569.25" y2="86.24" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="90.85" y1="380.33" x2="669.82" y2="380.33" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <path d="m250.99,528.21c3.47-.74,7.07-1.12,10.76-1.12,28.49,0,51.58,23.09,51.58,51.58,0,10.43-3.1,20.14-8.43,28.26" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line id="e" data-name="Lines" x1="691.86" y1="472.46" x2="311.53" y2="92.13" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="191.83" y1="186.43" x2="563.83" y2="186.43" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="487.76" y1="719.33" x2="487.76" y2="108.6" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
   </g>
 </svg>
