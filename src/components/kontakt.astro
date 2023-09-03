@@ -1,0 +1,43 @@
+---
+import ContentSection from "~/components/content-section.astro";
+import { Icon } from "astro-icon";
+---
+
+<ContentSection title="Kontakt" id="kontakt">
+  <Fragment slot="lead">
+		Masz pytania? <br />
+		My mamy <span class="text-primary">odpowiedzi</span>!
+	 <section class="pt-12 sm:py-16">
+		<div class="mx-auto max-w-2xl px-4 sm:px-6 sm:pb-8 lg:max-w-7xl lg:px-8">
+			<dl class="grid gap-6 lg:grid-cols-3">
+
+				<!-- Address -->
+				<div class="bg-offset rounded-3xl px-6 py-8">
+					<Icon class="h-20 mx-auto" name={"mdi:information"} />
+					<div class="text-sm font-medium">
+						<p>Technika Stosowana Krzysztof Dziedzic</p>
+						<p>ul. Podkarpacka 11/4</p>
+						<p>80-292 Gdańsk</p>
+						<p>NIP 589-205-23-73</p>
+					</div>
+				</div>
+	
+				<!-- Phone number -->
+				<div class="bg-offset rounded-3xl px-6 pt-8 pb-8 sm:pb-0 text-center">
+					<Icon class="h-20 mx-auto" name={"mdi:phone"} />
+					<p class="text-base font-medium mt-8">+48 502 112 999</p>
+				</div>
+	
+				<!-- Email -->
+				<div class="bg-offset rounded-3xl px-6 pt-8 pb-8 sm:pb-0 text-center">
+						<Icon class="h-20 mx-auto" name={"mdi:email"} />
+						<p class="text-base font-medium mt-8">
+							<a href="mailto:biuro@technikastosowana.pl">biuro@technikastosowana.pl</a>
+						</p>
+				</div>
+
+			</dl>
+		</div>
+	</section>
+	</Fragment>
+</ContentSection>

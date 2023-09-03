@@ -1,0 +1,34 @@
+---
+import { getCollection } from "astro:content";
+import ContentSection from "~/components/content-section.astro";
+import ShowcaseCard from "~/components/showcase-card.astro";
+import Swiper from "~/Swiper.vue";
+const featuredSites = await getCollection(
+  "showcase",
+  ({ data }) => "featured" in data,
+);
+const orderedSites = featuredSites.sort(
+  (a, b) => a.data.featured! - b.data.featured!,
+);
+
+const foo = ["one", "two"];
+---
+
+<ContentSection title="Realizacje" id="realizacje">
+  <Fragment slot="lead">
+    Znowu jakiś 2krótki tekst z <span class="text-primary">dupy</span>. Poniżej
+    skromna galeria. Galeria bez szału oczywiście. Od tego ma być FB.
+  </Fragment>
+  <div class="max-w-6xl space-y-2">
+    <Swiper client:load :slides={foo} />
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+      {orderedSites.map((site) => <ShowcaseCard site={site} />)}
+
+      <p class="text-right text-sm">
+        <a class="text-primary" href="https://astro.build/showcase/">
+          ...and more &rarr;
+        </a>
+      </p>
+    </div>
+  </div>
+</ContentSection>

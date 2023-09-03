@@ -1,0 +1,22 @@
+---
+// import { Image } from 'astro:assets';
+// import TSLogo from "../assets/TS_Logo_alt.svg";
+import TSAnimated from "~/components/ts_animated.astro";
+import FBCorner from "./fb-corner.astro";
+---
+
+<section class="relative h-full bg-black">
+  <TSAnimated />
+  <FBCorner />
+
+  <!-- Uncomment for static image
+  <div class="relative h-full w-full items-center justify-center">
+    <Image
+      class="w-full h-full"
+      src={TSLogo}
+      loading="eager"
+      alt="TS full logo"
+      quality={100}
+    />
+  </div> -->
+</section>

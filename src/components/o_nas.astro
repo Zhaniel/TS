@@ -1,0 +1,70 @@
+---
+import { Icon } from "astro-icon";
+import ContentSection from "~/components/content-section.astro";
+import type { FeatureItem } from "~/types";
+import MetricsContainer from "./metrics-container.astro";
+
+const features: Array<FeatureItem> = [
+  {
+    title: "Kompleksowa obsługa",
+    description:
+      "Lorem ipsum eldorado",
+    icon: "mdi:handshake",
+  },
+  {
+    title: "?!",
+    description:
+    "Lorem ipsum eldorado",
+    icon: "mdi:hammer-sickle",
+  },
+  {
+    title: "Elastyczność",
+    description:
+    "Lorem ipsum eldorado",
+    icon: "mdi:directions-fork",
+  },
+  {
+    title: "Wsparcie logistyczne",
+    description:
+    "Lorem ipsum eldorado",
+    icon: "mdi:graph",
+  },
+  {
+    title: "Walimy browary",
+    description:
+    "Lorem ipsum eldorado",
+    icon: "mdi:glass-mug",
+  },
+  {
+    title: "Mamy miniony",
+    description:
+    "Lorem ipsum eldorado",
+    icon: "mdi:account-group",
+  },
+];
+---
+<ContentSection title="Witaj w naszym świecie!" id="o_nas">
+  <Fragment slot="lead">
+    Hmm, zostawić tę sekcję bez odnośnika, czy podpiąć pod onas? Tak czy inaczej jakieś <span class="text-primary">motywacyjne</span> gówno.
+  </Fragment>
+  <MetricsContainer />
+</ContentSection>
+
+<ContentSection title="O Nas" id="tez_o_nas">
+  <Fragment slot="lead">
+    Cośtam jesteśmy <span class="text-primary">zajebiści</span>. Jesteśmy <span class="text-primary">wszechstronii</span>. Wielkie słowa mało treści.
+  </Fragment>
+  <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    {
+      features.map(({ title, description, icon }) => (
+        <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6 rounded-md">
+          <div class="h-16 w-16 rounded-full border-2 border-current p-3">
+            <Icon name={icon} />
+          </div>
+          <p class="text-center font-extrabold text-xl">{title}</p>
+          <p class="text-center text-offset text-sm">{description}</p>
+        </li>
+      ))
+    }
+  </ul>
+</ContentSection>
