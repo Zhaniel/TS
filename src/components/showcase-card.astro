@@ -3,6 +3,7 @@
 import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 import { resolveImage } from "~/content/showcase/_resolveImage.js";
+import ShowcaseWrapper from "./ShowcaseWrapper.vue";
 
 export interface Props {
   site: CollectionEntry<"showcase">;
@@ -15,11 +16,11 @@ const sizes = "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw";
 
 <!-- <a class="group aspect-video hover:!text-default" href={site.data.url}> -->
 <a
-  class="group aspect-video hover:!text-default"
+  class="group relative aspect-video hover:!text-default"
   href="#"
   onclick="
   return false;
-"
+  "
 >
   <figure class="relative h-full w-full overflow-hidden">
     <Image
@@ -39,4 +40,5 @@ const sizes = "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw";
       </div>
     </figcaption>
   </figure>
+  <ShowcaseWrapper client:load slide={site} />
 </a>
