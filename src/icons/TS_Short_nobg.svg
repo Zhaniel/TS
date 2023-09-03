@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="uuid-fc6cdc50-c65d-40e7-ac76-60ca06949e4b" xmlns="http://www.w3.org/2000/svg" width="760.66" height="760.66" viewBox="0 0 760.66 760.66">
+  <circle id="b" data-name="uuid-719063af-f505-4a70-bbb8-e53ffc6ff863" cx="380.33" cy="380.33" r="370.83" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 19px;"/>
+  <polygon id="c" data-name="uuid-120e49c7-abf5-4679-a834-584ba0b6520f" points="530.04 142.03 530.04 186.43 406.43 186.43 406.43 670.16 352.13 670.16 352.13 186.43 230.63 186.43 230.63 142.03 530.04 142.03" style="fill: #fff;"/>
+  <path id="d" data-name="uuid-0ccac6d8-ef96-432a-a0c2-a0e984d08085" d="m259.95,576.83c23.4,14.4,57.6,26.4,93.6,26.4,53.4,0,84.6-28.2,84.6-69,0-37.8-21.6-59.4-76.2-80.4-66-23.4-106.8-57.6-106.8-114.6,0-63,52.2-109.8,130.8-109.8,41.4,0,101.38,22.9,124.4,40.8l-14.4,42.6c-36.62-28-75.2-40.2-111.8-40.2-55.2,0-76.2,33-76.2,60.6,0,37.8,24.6,56.4,80.4,78,68.4,26.4,103.2,59.4,103.2,118.8,0,62.4-46.2,116.4-141.6,116.4-39,0-81.6-11.4-103.2-25.8l13.2-43.8Z" style="fill: #fff;"/>
+  <g id="e" data-name="uuid-5dc07387-eed3-4ab1-8eb8-7838cea31cff">
+    <circle cx="406.43" cy="186.43" r="22.02" transform="translate(157.3 557.75) rotate(-80.78)" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
+    <line x1="231.24" y1="682.07" x2="410.63" y2="86.81" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
+    <line x1="250.75" y1="705.33" x2="250.75" y2="80.66" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
+    <line x1="261.75" y1="693.33" x2="261.75" y2="68.66" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
+    <path d="m273.06,543.29c14.57,4.76,25.11,18.46,25.11,34.62,0,9.13-3.36,17.48-8.92,23.87" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
+    <line x1="371.36" y1="675.61" x2="569.25" y2="86.23" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
+    <line x1="90.84" y1="380.33" x2="669.82" y2="380.33" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
+    <path d="m250.99,528.21c3.47-.74,7.07-1.12,10.76-1.12,28.49,0,51.58,23.09,51.58,51.58,0,10.43-3.1,20.14-8.43,28.26" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
+    <line id="f" data-name="uuid-9349ebdb-17e2-44a5-ad93-28a2f8a36593" x1="691.86" y1="472.46" x2="311.53" y2="92.13" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
+    <line x1="191.83" y1="186.43" x2="563.83" y2="186.43" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
+    <line x1="487.75" y1="719.33" x2="487.75" y2="108.59" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
+  </g>
+</svg>

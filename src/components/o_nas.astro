@@ -7,57 +7,62 @@ import MetricsContainer from "./metrics-container.astro";
 const features: Array<FeatureItem> = [
   {
     title: "Kompleksowa obsługa",
-    description:
-      "Lorem ipsum eldorado",
+    description: "Zrealizujemy Twoją imprezę od A do Z",
     icon: "mdi:handshake",
   },
   {
-    title: "?!",
-    description:
-    "Lorem ipsum eldorado",
-    icon: "mdi:hammer-sickle",
+    title: "Zaplecze techniczne",
+    description: "Mamy wszystko czego Nam i Wam potrzeba",
+    icon: "mdi:circular-saw",
   },
   {
     title: "Elastyczność",
-    description:
-    "Lorem ipsum eldorado",
+    description: "Wiemy, że nie ma pomysłów niewykonalnych",
     icon: "mdi:directions-fork",
   },
   {
     title: "Wsparcie logistyczne",
-    description:
-    "Lorem ipsum eldorado",
+    description: "Doradzamy skuteczne rozwiązania na każdym etapie produkcji",
     icon: "mdi:graph",
   },
   {
-    title: "Walimy browary",
-    description:
-    "Lorem ipsum eldorado",
-    icon: "mdi:glass-mug",
+    title: "Błyskawiczna realizacja",
+    description: "i jeszcze szybszy demontaż :)",
+    icon: "mdi:lightning-bolt",
   },
   {
-    title: "Mamy miniony",
-    description:
-    "Lorem ipsum eldorado",
-    icon: "mdi:account-group",
+    title: "Luźna atmosfera",
+    description: "Praca, pracą, ale dalej jesteśmy ludźmi",
+    icon: "mdi:glass-mug",
   },
 ];
 ---
+
 <ContentSection title="Witaj w naszym świecie!" id="o_nas">
   <Fragment slot="lead">
-    Hmm, zostawić tę sekcję bez odnośnika, czy podpiąć pod onas? Tak czy inaczej jakieś <span class="text-primary">motywacyjne</span> gówno.
+    <!-- Technika to nasza <span class="text-primary">pasja</span>. -->
+     Technika scenograficzna. <span class="text-primary">Skrojone na miarę</span
+    > rozwiązania.
+    <br />
+     Planujemy. Kreujemy. Montujemy.
   </Fragment>
   <MetricsContainer />
 </ContentSection>
 
 <ContentSection title="O Nas" id="tez_o_nas">
   <Fragment slot="lead">
-    Cośtam jesteśmy <span class="text-primary">zajebiści</span>. Jesteśmy <span class="text-primary">wszechstronii</span>. Wielkie słowa mało treści.
+    <!-- Cośtam jesteśmy <span class="text-primary">zajebiści</span>. Jesteśmy <span
+      class="text-primary">wszechstronii</span
+    >. Wielkie słowa mało treści. -->
+
+     profesjonalizm, pasja,<br />
+     innowacja, wyobraźnia, niekonwencjonalne pomysły,<br />
+    <span class="text-primary">to i tak za mało, żeby Nas opisać</span>
   </Fragment>
   <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
     {
       features.map(({ title, description, icon }) => (
-        <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6 rounded-md">
+        <li class="flex flex-col items-center gap-4 rounded-md border border-default bg-offset p-6">
           <div class="h-16 w-16 rounded-full border-2 border-current p-3">
             <Icon name={icon} />
           </div>

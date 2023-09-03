@@ -2,13 +2,13 @@
 import { Icon } from "astro-icon";
 import { Image } from "astro:assets";
 // import HeroImage from "~/components/hero-image.astro";
-import LinesImage from '../assets/TS_Lines_nobg.svg';
+import LinesImage from "../assets/TS_Lines_nobg.svg";
 import type { FooterLink } from "~/types";
 
 const links: Array<FooterLink> = [
   {
     url: "#",
-    description: "",
+    description: "Powrót na górę",
     icon: "mdi:home",
   },
   {
@@ -17,7 +17,7 @@ const links: Array<FooterLink> = [
     icon: "mdi:email",
   },
   {
-    url: "#",
+    url: "https://www.facebook.com/technikastosowana",
     description: "Nasz facebook",
     icon: "fa-brands:facebook",
   },
@@ -33,9 +33,9 @@ const links: Array<FooterLink> = [
 <footer class="relative flex h-64 items-center justify-center">
   <div class="absolute inset-0 overflow-hidden bg-black">
     <Image
-    class="h-full w-full object-cover"
+      class="h-full w-full object-cover"
       src={LinesImage}
-      alt="Static Lines" 
+      alt="Static Lines"
     />
   </div>
   <ul class="relative grid grid-cols-3 gap-4">
