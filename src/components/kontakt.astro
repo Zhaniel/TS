@@ -11,7 +11,7 @@ import { Icon } from "astro-icon";
       <div class="mx-auto max-w-2xl px-4 sm:px-6 sm:pb-8 lg:max-w-7xl lg:px-8">
         <dl class="grid gap-6 lg:grid-cols-3">
           <!-- Address -->
-          <div class="rounded-3xl bg-offset px-6 py-8 text-center">
+          <div class="rounded-3xl bg-offset px-6 py-8 text-center min-w-min">
             <Icon class="mx-auto h-20" name={"TS_Short_nobg"} />
             <div class="font-medium text-sm">
               <p>Technika Stosowana Krzysztof Dziedzic</p>
@@ -24,10 +24,10 @@ import { Icon } from "astro-icon";
           <!-- Phone number -->
           <a
             href="tel:502112999"
-            class="rounded-3xl bg-offset px-6 pb-8 pt-8 text-center sm:pb-0"
+            class="rounded-3xl bg-offset px-6 py-8 text-center min-w-min"
           >
             <Icon class="mx-auto h-20" name={"mdi:phone"} />
-            <p class="mt-8 font-medium text-base">
+            <p class="mt-8 font-medium text-base pb-4 lg:pb-0">
               <span>+48 502 112 999</span>
             </p>
           </a>
@@ -35,10 +35,10 @@ import { Icon } from "astro-icon";
           <!-- Email -->
           <a
             href="mailto:biuro@technikastosowana.pl"
-            class="rounded-3xl bg-offset px-6 pb-8 pt-8 text-center sm:pb-0"
+            class="rounded-3xl bg-offset px-6 py-8 text-center min-w-min"
           >
             <Icon class="mx-auto h-20" name={"mdi:email"} />
-            <p class="mt-8 font-medium text-base">
+            <p class="mt-8 font-medium text-base pb-4 lg:pb-0">
               <span>biuro@technikastosowana.pl</span>
             </p>
           </a>
