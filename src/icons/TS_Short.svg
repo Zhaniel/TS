@@ -17,16 +17,16 @@
     <path id="uuid-0ccac6d8-ef96-432a-a0c2-a0e984d08085" data-name="S" d="m380.12,697c23.4,14.4,57.6,26.4,93.6,26.4,53.4,0,84.6-28.2,84.6-69,0-37.8-21.6-59.4-76.2-80.4-66-23.4-106.8-57.6-106.8-114.6,0-63,52.2-109.8,130.8-109.8,41.4,0,101.38,22.9,124.4,40.8l-14.4,42.6c-36.62-28-75.2-40.2-111.8-40.2-55.2,0-76.2,33-76.2,60.6,0,37.8,24.6,56.4,80.4,78,68.4,26.4,103.2,59.4,103.2,118.8,0,62.4-46.2,116.4-141.6,116.4-39,0-81.6-11.4-103.2-25.8l13.2-43.8Z" style="fill: #fff; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 6px;"/>
   </g>
   <g id="uuid-5dc07387-eed3-4ab1-8eb8-7838cea31cff" data-name="Lines">
-    <circle cx="526.6" cy="306.6" r="22.02" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <line x1="351.41" y1="802.24" x2="530.8" y2="206.98" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <line x1="370.92" y1="825.5" x2="370.92" y2="200.83" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <line x1="381.92" y1="813.5" x2="381.92" y2="188.83" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <path d="m393.23,663.46c14.57,4.76,25.11,18.46,25.11,34.62,0,9.13-3.36,17.48-8.92,23.87" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <line x1="491.53" y1="795.78" x2="689.42" y2="206.4" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <line x1="211.01" y1="500.5" x2="789.99" y2="500.5" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <path d="m371.16,648.38c3.47-.74,7.07-1.12,10.76-1.12,28.49,0,51.58,23.09,51.58,51.58,0,10.43-3.1,20.14-8.43,28.26" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <line id="uuid-9349ebdb-17e2-44a5-ad93-28a2f8a36593" data-name="Lines" x1="812.03" y1="592.63" x2="431.7" y2="212.3" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <line x1="312" y1="306.6" x2="684" y2="306.6" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
-    <line x1="607.92" y1="839.5" x2="607.92" y2="228.76" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
+    <circle cx="526.6" cy="306.6" r="22.02" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="351.41" y1="802.24" x2="530.8" y2="206.98" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="370.92" y1="825.5" x2="370.92" y2="200.83" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="381.92" y1="813.5" x2="381.92" y2="188.83" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <path d="m393.23,663.46c14.57,4.76,25.11,18.46,25.11,34.62,0,9.13-3.36,17.48-8.92,23.87" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="491.53" y1="795.78" x2="689.42" y2="206.4" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="211.01" y1="500.5" x2="789.99" y2="500.5" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <path d="m371.16,648.38c3.47-.74,7.07-1.12,10.76-1.12,28.49,0,51.58,23.09,51.58,51.58,0,10.43-3.1,20.14-8.43,28.26" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line id="uuid-9349ebdb-17e2-44a5-ad93-28a2f8a36593" data-name="Lines" x1="812.03" y1="592.63" x2="431.7" y2="212.3" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="312" y1="306.6" x2="684" y2="306.6" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="607.92" y1="839.5" x2="607.92" y2="228.76" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
   </g>
 </svg>

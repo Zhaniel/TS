@@ -11,12 +11,14 @@ const orderedSites = featuredSites.sort(
 
 <ContentSection title="Realizacje" id="realizacje">
   <Fragment slot="lead">
-    Znowu jakiś 2krótki tekst z <span class="text-primary">dupy</span>. Poniżej
-    skromna galeria. Galeria bez szału oczywiście. Od tego ma być FB.
+    Konferencje, koncerty, plener. Zobacz co <span class="text-primary"
+      >stworzyliśmy</span
+    >...
   </Fragment>
   <div class="max-w-6xl space-y-2">
     <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
       {orderedSites.map((site) => <ShowcaseCard site={site} />)}
     </div>
   </div>
+  <!-- Odstęp do kontaktu -->
 </ContentSection>
