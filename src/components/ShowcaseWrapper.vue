@@ -8,7 +8,6 @@ const props = defineProps<{
   slide: {
     sources: string[];
     title: string;
-    url: string;
     featured: number;
   };
 }>();
@@ -19,8 +18,7 @@ onMounted(() => {
 </script>
 <template>
   <div class="absolute inset-0" @click="open = true"></div>
-  <Modal v-if="mounted" size="xl" :open="open" @close="open = false"
-    >{{ slide.title }}
+  <Modal v-if="mounted" size="xl" :open="open" @close="open = false">
     <Slider :sources="slide.sources" />
   </Modal>
 </template>

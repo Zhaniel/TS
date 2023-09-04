@@ -6,12 +6,12 @@ import { fwr } from "~/content/showcase/_images";
 import type { slide } from "astro:transitions";
 
 export interface Props {
-  site: typeof fwr;
+  event: typeof fwr;
 }
 
-const { site } = Astro.props;
+const { event } = Astro.props;
 const sizes = "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw";
-const [image] = site.sources;
+const [image] = event.sources;
 ---
 
 <!-- <a class="group aspect-video hover:!text-default" href={site.data.url}> -->
@@ -29,17 +29,17 @@ const [image] = site.sources;
       width={400}
       height={225}
       sizes={sizes}
-      alt={`A screenshot of ${site.url}`}
+      alt={`A screenshot of ${event.title}`}
     />
     <figcaption class="absolute inset-0">
       <div
         class="flex h-full flex-col items-center justify-center gap-2 opacity-0 transition-all duration-300 group-hover:opacity-100 group-focus:opacity-100"
       >
         <h3 class="text-center font-extrabold uppercase text-xl">
-          {site.title}
+          {event.title}
         </h3>
       </div>
     </figcaption>
   </figure>
-  <ShowcaseWrapper client:idle slide={site} />
+  <ShowcaseWrapper client:idle slide={event} />
 </a>

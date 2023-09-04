@@ -2,11 +2,18 @@
 import { getCollection } from "astro:content";
 import ContentSection from "~/components/content-section.astro";
 import ShowcaseCard from "~/components/showcase-card.astro";
-import { fwr, ngl } from "~/content/showcase/_images";
-const featuredSites = [fwr, ngl];
-const orderedSites = featuredSites.sort(
-  (a, b) => a.featured ?? 0 - b.featured ?? 0,
-);
+import {
+  fwr,
+  ngl,
+  port,
+  mayday,
+  prom,
+  wojna,
+} from "~/content/showcase/_images";
+const featuredEvents = [fwr, ngl, port, mayday, prom, wojna];
+// const orderedSites = featuredSites.sort(
+//   (a, b) => a.featured ?? 0 - b.featured ?? 0,
+// );
 ---
 
 <ContentSection title="Realizacje" id="realizacje">
@@ -17,7 +24,7 @@ const orderedSites = featuredSites.sort(
   </Fragment>
   <div class="max-w-6xl space-y-2">
     <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-      {orderedSites.map((site) => <ShowcaseCard site={site} />)}
+      {featuredEvents.map((event) => <ShowcaseCard event={event} />)}
     </div>
   </div>
   <!-- Odstęp do kontaktu -->

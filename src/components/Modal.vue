@@ -30,13 +30,8 @@
               >
                 <div
                   data-dialog
-                  class="relative mx-auto transform overflow-hidden rounded-[14px] bg-white py-4 text-left transition-all sm:my-8 sm:w-full"
-                  :class="[
-                    {
-                      'sm:max-w-lg': size === 'lg',
-                      'sm:max-w-xl': size === 'xl',
-                    },
-                  ]"
+                  class="relative mx-auto transform overflow-hidden rounded-[14px] py-4 text-left transition-all sm:my-8 sm:h-full max-w-5xl"
+                  
                 >
                   <OnClickOutside @trigger="emit('close')">
                     <div>
