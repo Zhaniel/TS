@@ -65,6 +65,7 @@ export const wojna = {
       eager: true,
       as: "url",
     }) as string[],
+    
   ),
   title: "40. Rocznica wprowadzenia stanu wojennego",
   featured: 1,
