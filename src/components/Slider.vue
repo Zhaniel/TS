@@ -52,10 +52,34 @@ onMounted(() => {
 </script>
 <template>
   <div>
-    <swiper-container init="false" slides-per-view="1">
-      <swiper-slide v-for="img in sources">
-        <img :src="img" alt="" />
+    <swiper-container
+      init="false"
+      slides-per-view="1"
+      :centered-slides="true"
+      navigation="true"
+      pagination="true"
+    >
+      <swiper-slide v-for="img of sources">
+        <img :src="img" alt="" class="h-full w-full object-cover" />
       </swiper-slide>
     </swiper-container>
   </div>
 </template>
+
+<style lang="css">
+:root {
+  --swiper-navigation-color: #0b0d0b;
+  --swiper-pagination-color: #e3e2db;
+  --swiper-navigation-sides-offset: 24px;
+}
+swiper-container::part(button-prev),
+swiper-container::part(button-next) {
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: var(--swiper-pagination-color);
+  width: 28px;
+  height: 28px;
+  padding: 8px;
+  transform: translateY(50%);
+}
+</style>

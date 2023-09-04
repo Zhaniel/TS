@@ -2,12 +2,10 @@
 import { getCollection } from "astro:content";
 import ContentSection from "~/components/content-section.astro";
 import ShowcaseCard from "~/components/showcase-card.astro";
-const featuredSites = await getCollection(
-  "showcase",
-  ({ data }) => "featured" in data,
-);
+import { fwr, ngl } from "~/content/showcase/_images";
+const featuredSites = [fwr, ngl];
 const orderedSites = featuredSites.sort(
-  (a, b) => a.data.featured! - b.data.featured!,
+  (a, b) => a.featured ?? 0 - b.featured ?? 0,
 );
 ---
 
