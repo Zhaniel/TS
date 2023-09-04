@@ -16,7 +16,7 @@ onMounted(() => {
 
   const params = {
     // array with CSS styles
-    modules: [Pagination, Navigation],
+    // modules: [Pagination, Navigation],
     slidesPerView: 1,
     injectStyles: [
       /* css */ `
