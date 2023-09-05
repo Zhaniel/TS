@@ -77,8 +77,8 @@ swiper-container::part(button-next) {
   box-sizing: border-box;
   border-radius: 50%;
   background-color: var(--swiper-pagination-color);
-  width: 28px;
-  height: 28px;
+  width: 36px;
+  height: 36px;
   padding: 8px;
   transform: translateY(50%);
 }
